@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Naturist</title>
+    <link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>The Naturist</h1>
+    <div class="slider">
+      <span id="slide-1"></span>
+      <span id="slide-2"></span>
+      <span id="slide-3"></span>
+      <div class="image-container">
+        <img src="sunset.jpeg" class="slide" width="500" height="300" />
+        <img src="a.jpg" class="slide" width="500" height="300" />
+        <img src="b.jpg" class="slide" width="500" height="300" />
+      </div>
+      <div class="buttons">
+        <a href="#slide-1"></a>
+        <a href="#slide-2"></a>
+        <a href="#slide-3"></a>
+      </div>
+    </div>
+    <p class="para"><strong>To experience more nature and extract natural colors from real photos please signup!</strong></p>
+
+    <div class="form">
+
+         <ul class="top-area">
+           <li class="tab active"><a href="#signup">Sign Up</a></li>
+           <li class="tab"><a href="#login">Log In</a></li>
+         </ul>
+
+         <div class="tab-content">
+           <div id="signup">
+             <h2>Sign Up for Free</h2>
+
+             <form action="/" method="post">
+
+             <div class="top-row">
+               <div class="label-field">
+                 <label>
+                   First Name<span class="req">*</span>
+                 </label>
+                 <input type="text" required autocomplete="off" />
+               </div>
+
+               <div class="label-field">
+                 <label>
+                   Last Name<span class="req">*</span>
+                 </label>
+                 <input type="text"required autocomplete="off"/>
+               </div>
+             </div>
+
+             <div class="label-field">
+               <label>
+                 Email Address<span class="req">*</span>
+               </label>
+               <input type="email"required autocomplete="off"/>
+             </div>
+
+             <div class="label-field">
+               <label>
+                 Set A Password<span class="req">*</span>
+               </label>
+               <input type="password"required autocomplete="off"/>
+             </div>
+
+             <button type="submit" class="button button-block"/>Get Started</button>
+
+             </form>
+
+           </div>
+
+           <div id="login">
+             <h2>Welcome Back!</h2>
+
+             <form action="/" method="post">
+
+               <div class="label-field">
+               <label>
+                 Email Address<span class="req">*</span>
+               </label>
+               <input type="email"required autocomplete="off"/>
+             </div>
+
+             <div class="label-field">
+               <label>
+                 Password<span class="req">*</span>
+               </label>
+               <input type="password"required autocomplete="off"/>
+             </div>
+
+             <p class="forgot"><a href="#">Forgot Password?</a></p>
+
+             <button class="button button-block">Log In</button>
+
+             </form>
+
+           </div>
+
+         </div>
+   </div>
+
+   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+   <script  src="function.js"></script>
+    </body>
+    </html>
